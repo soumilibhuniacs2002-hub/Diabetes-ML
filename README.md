@@ -19,7 +19,7 @@ The project is currently being extended into a <b>user-friendly application</b>,
 🎯 Objectives
 
 <p align="justify">
-The main objective of this project is to develop a reliable Machine Learning-based system for diabetes prediction by applying appropriate data preprocessing, feature scaling, model training, and evaluation techniques. The project also aims to compare different classification algorithms, identify the best-performing model, visualize prediction results, and explore personalized recommendations based on predicted outcomes.
+The main objective of this project is to develop a Machine Learning-based system for diabetes prediction by applying appropriate data preprocessing, feature scaling, model training, and evaluation techniques. The project also aims to compare different classification algorithms, identify the best-performing model, visualize prediction results, and explore personalized recommendations based on predicted outcomes.
 </p>- Develop a Machine Learning-based diabetes prediction system.
 - Preprocess and prepare healthcare-related data for model training.
 - Apply appropriate feature scaling techniques.
@@ -37,10 +37,10 @@ The main objective of this project is to develop a reliable Machine Learning-bas
 <p align="justify">
 The project currently evaluates four classification algorithms. These models were selected to provide a comparison between different Machine Learning approaches for binary classification and to identify a suitable model for diabetes prediction.
 </p>Model| Description
-Logistic Regression| Used as a baseline classification model for diabetes prediction.
-Random Forest| Ensemble learning algorithm capable of handling complex feature relationships and providing feature importance.
-Gradient Boosting| Ensemble technique that sequentially improves weak learners to achieve strong predictive performance.
-Support Vector Machine (SVM)| Classification algorithm that identifies an optimal decision boundary between classes.
+Logistic Regression| Baseline classification model for diabetes prediction.
+Random Forest| Ensemble learning algorithm for classification and feature analysis.
+Gradient Boosting| Ensemble technique that sequentially improves predictive performance.
+Support Vector Machine (SVM)| Classification algorithm based on optimal decision boundaries.
 
 ---
 
@@ -81,24 +81,23 @@ The initial Machine Learning prototype has been successfully developed in Google
 </p>- Dataset preprocessing
 - Feature preparation and scaling
 - Train-test splitting
-- Implementation of multiple classification algorithms
-- Model training
-- Model evaluation
-- Comparison of classification models
+- Multiple classification algorithms
+- Model training and evaluation
+- Model comparison
 - Basic diabetes prediction system
 - Google Colab implementation
-- Initial visualization of model results
+- Initial result visualization
 
 Currently in Progress
 
 <p align="justify">
 The application development phase is currently ongoing. The next stage focuses on integrating the trained Machine Learning model into a user-friendly application, improving the prediction workflow, developing the user interface, and performing additional testing and validation.
-</p>- Development of a user-friendly application
-- Integration of the Machine Learning model with the application
-- Improvement of the prediction workflow
+</p>- User-friendly application development
+- Machine Learning model integration
+- Prediction workflow improvement
 - User interface development
-- Further system testing and validation
-- Refinement of personalized recommendations
+- Further testing and validation
+- Personalized recommendation refinement
 
 ---
 
@@ -106,9 +105,9 @@ The application development phase is currently ongoing. The next stage focuses o
 
 <p align="justify">
 The Machine Learning models are evaluated using Accuracy, ROC-AUC, and Cross-Validation. These metrics provide different perspectives on model performance and are used to compare the implemented algorithms and identify a suitable model for the prediction system.
-</p>- Accuracy — Measures the proportion of correctly classified samples.
-- ROC-AUC — Measures the model's ability to distinguish between the two classes.
-- Cross-Validation — Evaluates model consistency across multiple data splits.
+</p>- Accuracy — Proportion of correctly classified samples.
+- ROC-AUC — Ability of the model to distinguish between the two classes.
+- Cross-Validation — Model consistency across multiple data splits.
 
 ---
 
@@ -183,7 +182,7 @@ Diabetes-ML/
 
 <p align="justify">
 The project can be further enhanced by testing the models on larger and more diverse datasets, exploring additional Machine Learning and Deep Learning algorithms, improving model interpretability, and completing the user-friendly application. Future development will also focus on improving personalized recommendations, implementing appropriate data privacy and security measures, and conducting extensive testing and validation before considering potential real-world healthcare applications.
-</p>- Test the models on larger and more diverse datasets.
+</p>- Test larger and more diverse datasets.
 - Explore additional Machine Learning and Deep Learning algorithms.
 - Improve model interpretability and explainability.
 - Complete the user-friendly application.
@@ -191,7 +190,7 @@ The project can be further enhanced by testing the models on larger and more div
 - Improve personalized recommendations.
 - Implement appropriate data privacy and security measures.
 - Perform extensive testing and validation.
-- Explore expert and clinical review before potential real-world healthcare deployment.
+- Explore expert and clinical review before potential real-world deployment.
 
 ---
 
