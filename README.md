@@ -99,6 +99,14 @@ Gradient Boosting was identified as the top-performing model among the evaluated
 
 Further testing and validation will be performed as the project continues to develop.
 
+🔗 Google Colab
+
+The basic diabetes prediction system has been implemented and tested in Google Colab.
+
+👉 "Open the Diabetes ML Prediction System in Google Colab" (https://colab.research.google.com/drive/1_SoaUNXCnhFwnw5IxXqhfSPxWcLm_nHd?usp=sharing)
+
+The application development is currently ongoing, and the trained Machine Learning workflow will be integrated into the application in future development.
+
 🚀 Future Improvements
 
 - Test larger and more diverse datasets.
