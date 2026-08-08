@@ -9,43 +9,45 @@ Diabetes ML — Data-Driven Personalized Medicine for Diabetes
 📚 Research Publication
 
 <p align="justify">
-This project is developed from the broader research domain of <b>Personalized Medicine</b>, with <b>Diabetes</b> selected as a specific healthcare application area. The research explores how Machine Learning can be used to analyze patient-related health factors, predict diabetes outcomes, and support personalized healthcare recommendations.
+This project is developed from the broader research domain of <strong>Personalized Medicine</strong>, with <strong>Diabetes</strong> selected as a specific healthcare application area. The research focuses on applying Machine Learning techniques to patient-related health information for predictive analysis and personalized healthcare support.
 </p><p align="justify">
-The research work titled <b>"Data-Driven Personalization in Healthcare: A Machine Learning Approach with Predictive Analysis and Precision Treatment Strategies"</b> was accepted for presentation at the <b>1st AICDAKD 2025, Kolkata</b>, and accepted for publication in the proceedings of <b>Springer Nature's Lecture Notes in Networks and Systems (LNNS)</b>. The paper is listed as <b>Paper ID: 63</b>.
-</p>«Publication: Springer Nature — Lecture Notes in Networks and Systems (LNNS)
-Conference: 1st AICDAKD 2025, Kolkata
-Paper ID: 63
-Publication Status: Accepted for publication / forthcoming»
+The research work titled <strong>"Data-Driven Personalization in Healthcare: A Machine Learning Approach with Predictive Analysis and Precision Treatment Strategies"</strong> was accepted for presentation at the <strong>1st AICDAKD 2025, Kolkata</strong>, and accepted for publication in the proceedings of <strong>Springer Nature's Lecture Notes in Networks and Systems (LNNS)</strong>. The paper is listed under <strong>Paper ID: 63</strong>.
+</p>Publication Detail| Information
+Research Domain| Personalized Medicine
+Specific Application Domain| Diabetes
+Paper Title| Data-Driven Personalization in Healthcare: A Machine Learning Approach with Predictive Analysis and Precision Treatment Strategies
+Conference| 1st AICDAKD 2025, Kolkata
+Publisher / Series| Springer Nature — Lecture Notes in Networks and Systems (LNNS)
+Paper ID| 63
+Publication Status| Accepted for Publication / Forthcoming
 
 ---
 
 📌 About the Project
 
 <p align="justify">
-<b>Diabetes ML</b> is a Machine Learning-based project derived from the concept of <b>Data-Driven Personalized Medicine</b>. Within the broader personalized medicine domain, diabetes has been selected as a specific application area to explore how patient health-related information can be used for predictive analysis and personalized recommendations.
+<strong>Diabetes ML</strong> is a Machine Learning-based healthcare project derived from the concept of <strong>Data-Driven Personalized Medicine</strong>. Within the broader personalized medicine domain, diabetes has been selected as a specific application area to explore how patient health-related information can be used for predictive analysis and personalized healthcare recommendations.
 </p><p align="justify">
-The project implements a Machine Learning pipeline for diabetes prediction using multiple classification algorithms. The system processes relevant health-related data, trains and evaluates different models, compares their performance, and identifies a suitable model for prediction. A basic recommendation system is also incorporated to provide personalized supportive recommendations based on the predicted outcome and patient health factors.
+The project implements a Machine Learning pipeline for diabetes prediction using multiple classification algorithms. The system processes relevant health-related data, trains and evaluates different models, compares their performance, and identifies a suitable model for diabetes prediction.
 </p><p align="justify">
-A <b>basic working prediction and recommendation system has already been developed in Google Colab</b>. The current prototype establishes the core Machine Learning workflow, while development is ongoing to transform the prototype into a more user-friendly application.
+A <strong>basic working diabetes prediction and personalized recommendation system has already been developed in Google Colab</strong>. The current prototype establishes the core Machine Learning workflow, while application development is ongoing to transform the existing prototype into a more user-friendly system.
 </p>---
 
-🎯 Project Objectives
+🎯 Objectives
 
 <p align="justify">
-The primary objective of this project is to apply Machine Learning techniques to the field of personalized medicine, specifically focusing on diabetes prediction and personalized healthcare support.
+The primary objective of this project is to apply the principles of personalized medicine to diabetes prediction by using Machine Learning for predictive analysis and supportive personalized recommendations.
 </p>The project aims to:
 
-- Apply the concept of personalized medicine to diabetes prediction.
 - Develop a Machine Learning-based diabetes prediction system.
 - Preprocess and prepare patient health-related data.
-- Handle missing values and perform appropriate data preparation.
-- Apply feature scaling using suitable techniques.
+- Apply appropriate feature scaling techniques.
 - Train and compare multiple classification algorithms.
 - Evaluate model performance using standard evaluation metrics.
 - Identify the best-performing prediction model.
-- Visualize model performance and important predictors.
+- Visualize model performance and important features.
 - Develop a basic personalized recommendation system.
-- Provide supportive recommendations based on predicted diabetes outcomes and health factors.
+- Provide supportive recommendations based on prediction results and relevant health factors.
 - Extend the existing prototype toward a user-friendly application.
 
 ---
@@ -53,57 +55,57 @@ The primary objective of this project is to apply Machine Learning techniques to
 🤖 Machine Learning Models
 
 <p align="justify">
-Four classification algorithms are implemented and compared to evaluate their suitability for diabetes prediction. The models represent different Machine Learning approaches and provide a basis for selecting an effective predictive model.
+Four classification algorithms are implemented and compared to evaluate their suitability for diabetes prediction. The models provide different Machine Learning approaches for classification and allow their predictive performance to be analyzed using common evaluation metrics.
 </p>Model| Purpose
 Logistic Regression| Provides a baseline classification approach for diabetes prediction.
-Random Forest| Uses ensemble learning for classification and analysis of important features.
+Random Forest| Uses ensemble learning for classification and feature analysis.
 Gradient Boosting| Uses sequential ensemble learning to improve predictive performance.
 Support Vector Machine (SVM)| Performs classification by identifying an optimal decision boundary between classes.
 
 ---
 
-🔄 Machine Learning Workflow
+🔄 System Workflow
 
-                    Personalized Medicine
-                           │
-                           ▼
-                    Diabetes Domain
-                           │
-                           ▼
-                       Dataset
-                           │
-                           ▼
-                 Data Preprocessing
-                           │
-                           ▼
-                    Feature Scaling
-                           │
-                           ▼
-                   Train-Test Split
-                           │
-                           ▼
-                   Model Training
-                           │
-                           ▼
-                  Model Evaluation
-                           │
-                           ▼
-                  Model Comparison
-                           │
-                           ▼
-                 Best Model Selection
-                           │
-                           ▼
-                 Diabetes Prediction
-                           │
-                           ▼
-            Personalized Recommendation
-                           │
-                           ▼
-                 Application Development
-                           │
-                           ▼
-                Further Testing & Validation
+                 Personalized Medicine
+                         │
+                         ▼
+                  Diabetes Domain
+                         │
+                         ▼
+                      Dataset
+                         │
+                         ▼
+               Data Preprocessing
+                         │
+                         ▼
+                  Feature Scaling
+                         │
+                         ▼
+                 Train-Test Split
+                         │
+                         ▼
+                  Model Training
+                         │
+                         ▼
+                 Model Evaluation
+                         │
+                         ▼
+                 Model Comparison
+                         │
+                         ▼
+                Best Model Selection
+                         │
+                         ▼
+                Diabetes Prediction
+                         │
+                         ▼
+          Personalized Recommendation
+                         │
+                         ▼
+              Application Integration
+                         │
+                         ▼
+             Further Testing & Validation
 
 ---
 
@@ -112,13 +114,12 @@ Support Vector Machine (SVM)| Performs classification by identifying an optimal 
 Basic Prediction System
 
 <p align="justify">
-A basic Machine Learning prediction system has already been implemented and tested in <b>Google Colab</b>. The prototype provides the fundamental code structure required for diabetes prediction and demonstrates the complete Machine Learning workflow from data preparation to model-based prediction.
+A basic Machine Learning prediction system has already been implemented and tested in <strong>Google Colab</strong>. The prototype provides the fundamental code structure required for the diabetes prediction workflow and demonstrates the process from dataset preparation and preprocessing to model training, evaluation, and prediction.
 </p>The current implementation includes:
 
 - Dataset loading
 - Data preprocessing
-- Handling of missing values
-- Feature preparation
+- Data preparation
 - Feature scaling
 - Train-test splitting
 - Multiple classification algorithms
@@ -127,49 +128,58 @@ A basic Machine Learning prediction system has already been implemented and test
 - Model comparison
 - Best model identification
 - Diabetes prediction
-- Prediction result analysis
-- Visualization of model performance
+- Initial result visualization
 
-Basic Personalized Recommendation System
+Personalized Recommendation System
 
 <p align="justify">
-A basic recommendation component has also been developed as part of the Colab prototype. The system uses the predicted diabetes outcome and relevant patient health factors to generate personalized supportive recommendations. This recommendation component is currently at the prototype stage and will be further refined during application development and validation.
+A basic personalized recommendation component has also been incorporated into the Colab prototype. Based on the prediction outcome and relevant health-related factors, the system provides initial supportive recommendations. This component will be further refined as the project progresses toward application development and additional validation.
 </p>Application Development
 
 <p align="justify">
-The application development phase is currently ongoing. The existing Colab-based Machine Learning prototype will serve as the foundation for developing a user-friendly application that integrates the trained model, prediction workflow, and personalized recommendation functionality.
-</p>---
+The application development phase is currently ongoing. The existing Google Colab-based Machine Learning prototype will serve as the foundation for developing a user-friendly application that integrates the trained model, prediction workflow, and personalized recommendation functionality.
+</p>Planned application functionality includes:
+
+- User-friendly input interface
+- Integration of the trained Machine Learning model
+- Diabetes prediction
+- Prediction result presentation
+- Personalized recommendation support
+- Improved user experience
+- Further system testing and validation
+
+---
 
 📊 Model Evaluation
 
 <p align="justify">
-The implemented Machine Learning models are evaluated using multiple performance metrics to compare their predictive capabilities and identify the most suitable model for the current diabetes prediction task.
+The implemented Machine Learning models are evaluated using multiple performance metrics to compare their predictive capabilities and identify a suitable model for the current diabetes prediction task.
 </p>Metric| Purpose
 Accuracy| Measures the proportion of correctly classified samples.
 ROC-AUC| Measures the model's ability to distinguish between the two classes.
-Cross-Validation| Evaluates model consistency across different data splits.
+Cross-Validation| Evaluates model performance and consistency across different data splits.
 
 ---
 
 📈 Visualizations
 
 <p align="justify">
-Visual analysis is used to compare the performance of the implemented models and understand important predictors within the dataset.
+Visual analysis is used to evaluate model performance, compare classification results, and understand the contribution of important features within the dataset.
 </p>The project includes:
 
 - ROC Curves
 - Confusion Matrices
 - Feature Importance Plots
-- Model Performance Comparisons
+- Model Performance Comparison
 
 ---
 
 ⭐ Key Result
 
 <p align="justify">
-Among the classification algorithms evaluated in the current implementation, <b>Gradient Boosting</b> was identified as the top-performing model based on the implemented evaluation process. The result provides a foundation for further development of the diabetes prediction and personalized recommendation system.
+Among the classification algorithms evaluated in the current implementation, <strong>Gradient Boosting</strong> was identified as the top-performing model based on the implemented evaluation process.
 </p><p align="justify">
-Further testing and validation will be performed as the project progresses, particularly as the Machine Learning prototype is integrated into the planned application.
+This result provides a foundation for further development of the diabetes prediction and personalized recommendation system. Additional testing and validation will be performed as the project progresses, particularly during the integration of the Machine Learning prototype into the planned application.
 </p>---
 
 🛠️ Technologies Used
@@ -221,9 +231,9 @@ Diabetes-ML/
 │
 └── requirements.txt
 
-«Note: The project structure may be updated as the application and Machine Learning components continue to evolve.»
-
----
+<p align="justify">
+<strong>Note:</strong> The project structure may be updated as the Machine Learning and application components continue to evolve.
+</p>---
 
 🚀 Future Scope
 
@@ -249,7 +259,7 @@ The project can be further developed toward a more comprehensive personalized he
 ⚠️ Disclaimer
 
 <p align="justify">
-This project is developed as a Machine Learning-based healthcare research and development project. A <b>basic diabetes prediction and personalized recommendation system has already been implemented in Google Colab</b> as a working prototype. The current implementation demonstrates the core Machine Learning workflow, prediction process, and initial recommendation functionality.
+This project is developed as a Machine Learning-based healthcare research and development project. A <strong>basic diabetes prediction and personalized recommendation system has already been implemented in Google Colab</strong> as a working prototype. The current implementation demonstrates the core Machine Learning workflow, prediction process, and initial recommendation functionality.
 </p><p align="justify">
 Further testing, validation, and refinement will be carried out as the project progresses, with the goal of improving model performance, reliability, usability, and application integration.
 </p>---
