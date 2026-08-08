@@ -86,4 +86,4 @@ Computer Science & Engineering
 
 ## ⚠️ Disclaimer
 
-This project is intended for academic and research purposes only. The predictions and recommendations should not be considered professional medical advice.
+This project is currently developed as a Machine Learning-based healthcare research and development project. Future versions may be integrated into an application for educational and healthcare-support purposes. Any future application should undergo appropriate testing, validation, and expert review before being used in real-world healthcare settings.
